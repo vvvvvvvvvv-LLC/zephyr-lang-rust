@@ -14,6 +14,7 @@ pub mod align;
 pub mod error;
 pub mod logging;
 pub mod object;
+#[cfg(CONFIG_RUST_ALLOC)]
 pub mod simpletls;
 pub mod sync;
 pub mod sys;
